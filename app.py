@@ -18,7 +18,7 @@ if "exercises_sql_tables.duckdb" not in os.listdir("data"):
 
 
 con = du.connect(database="data/exercises_sql_tables.duckdb", read_only=False)
-# solution_df = du.sql(answer_str).df()
+
 with st.sidebar:
     theme = st.selectbox(
         "How would you like to be review?",
